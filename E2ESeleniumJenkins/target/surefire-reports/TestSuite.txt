@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.085 sec <<< FAILURE! - in TestSuite
+testcase1(testcase.TC001)  Time elapsed: 2.452 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x0089A813+48355]
+	(No symbol) [0x0082C4B1]
+	(No symbol) [0x00735220]
+	(No symbol) [0x00757C7C]
+	(No symbol) [0x0077A636]
+	(No symbol) [0x007770CD]
+	(No symbol) [0x00776B3A]
+	(No symbol) [0x00715311]
+	(No symbol) [0x0071571E]
+	(No symbol) [0x00715AFA]
+	GetHandleVerifier [0x00AFAABD+2539405]
+	GetHandleVerifier [0x00B3A78F+2800735]
+	GetHandleVerifier [0x00B3456C+2775612]
+	GetHandleVerifier [0x009251E0+616112]
+	(No symbol) [0x00835F8C]
+	(No symbol) [0x00714F64]
+	(No symbol) [0x00714912]
+	GetHandleVerifier [0x00B6159C+2959980]
+	BaseThreadInitThunk [0x75A9FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x775C7AEE+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'LT-2001071', ip: '192.168.8.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at testcase.TC001.testcase1(TC001.java:28)
+
+testcase1(testcase.TC002)  Time elapsed: 2.076 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x0089A813+48355]
+	(No symbol) [0x0082C4B1]
+	(No symbol) [0x00735220]
+	(No symbol) [0x00757C7C]
+	(No symbol) [0x0077A636]
+	(No symbol) [0x007770CD]
+	(No symbol) [0x00776B3A]
+	(No symbol) [0x00715311]
+	(No symbol) [0x0071571E]
+	(No symbol) [0x00715AFA]
+	GetHandleVerifier [0x00AFAABD+2539405]
+	GetHandleVerifier [0x00B3A78F+2800735]
+	GetHandleVerifier [0x00B3456C+2775612]
+	GetHandleVerifier [0x009251E0+616112]
+	(No symbol) [0x00835F8C]
+	(No symbol) [0x00714F64]
+	(No symbol) [0x00714912]
+	GetHandleVerifier [0x00B6159C+2959980]
+	BaseThreadInitThunk [0x75A9FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x775C7AEE+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'LT-2001071', ip: '192.168.8.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at testcase.TC002.testcase1(TC002.java:28)
+
+testcase1(testcase.TC003)  Time elapsed: 2.245 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {stacktrace=Backtrace:
+	GetHandleVerifier [0x0089A813+48355]
+	(No symbol) [0x0082C4B1]
+	(No symbol) [0x00735220]
+	(No symbol) [0x00757C7C]
+	(No symbol) [0x0077A636]
+	(No symbol) [0x007770CD]
+	(No symbol) [0x00776B3A]
+	(No symbol) [0x00715311]
+	(No symbol) [0x0071571E]
+	(No symbol) [0x00715AFA]
+	GetHandleVerifier [0x00AFAABD+2539405]
+	GetHandleVerifier [0x00B3A78F+2800735]
+	GetHandleVerifier [0x00B3456C+2775612]
+	GetHandleVerifier [0x009251E0+616112]
+	(No symbol) [0x00835F8C]
+	(No symbol) [0x00714F64]
+	(No symbol) [0x00714912]
+	GetHandleVerifier [0x00B6159C+2959980]
+	BaseThreadInitThunk [0x75A9FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x775C7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x775C7AEE+238]
+, error=invalid session id, message=invalid session id}
+Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
+System info: host: 'LT-2001071', ip: '192.168.8.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:373)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at testcase.TC003.testcase1(TC003.java:28)
+

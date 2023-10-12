@@ -21,7 +21,7 @@ public class TC002 {
 	}
 	@Test
 	public static void testcase1() {
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver-117.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		System.out.println(driver.getSessionId());
